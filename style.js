@@ -1,13 +1,12 @@
-
 (function (blink) {
 	'use strict';
 
-	var LnplatStyle = function () {
+	var pearson_NL = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	LnplatStyle.prototype = {
+	pearson_NL.prototype = {
 		bodyClassName: 'content_type_clase_lnplat',
 		ckEditorStyles: {
 			name: 'lnplat',
@@ -342,8 +341,8 @@
                 }
 	};
 
-	LnplatStyle.prototype = _.extend({}, new blink.theme.styles.basic(), LnplatStyle.prototype);
+	pearson_NL.prototype = _.extend({}, new blink.theme.styles.basic(), pearson_NL.prototype);
 
-	blink.theme.styles['lnplat'] = LnplatStyle;
+	blink.theme.styles['lnplat'] = pearson_NL;
 
 })( blink );
