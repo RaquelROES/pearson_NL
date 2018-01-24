@@ -7,9 +7,9 @@
 		page = blink.currentPage;
 
 	pearson_NLStyle.prototype = {
-		bodyClassName: 'content_type_clase_pearson_NL',
+		bodyClassName: 'content_type_clase_pearson-NL',
 		ckEditorStyles: {
-			name: 'pearson_NL',
+			name: 'pearson-NL',
 			styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
@@ -343,6 +343,6 @@
 
 	pearson_NLStyle.prototype = _.extend({}, new blink.theme.styles.basic(), pearson_NLStyle.prototype);
 
-	blink.theme.styles['pearson_NL'] = pearson_NLStyle;
+	blink.theme.styles['pearson-NL'] = pearson_NLStyle;
 
 })( blink );
