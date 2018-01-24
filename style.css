@@ -1,4 +1,10 @@
 /*General */
+
+body {
+    background-color: #fbf5ea;
+}
+
+
 .body_clase .content-wrapper {
 	padding-top: 130px;
 	padding-bottom: 0px;
@@ -51,7 +57,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color: #9665AB;
+   color: #399dbf;
 }
 
 .zoom_flag_img {
@@ -183,13 +189,11 @@ fieldset[disabled] .content_type_clase_lnplat .slide_main input {
 /* CURSO */
 
 #indice .unit-content {
-    border-radius: 20px;
+     background-color: #fff;
 }
 
 #indice .unit-content .header {
-	border: 2px solid #9665AB;
-    border-radius: 20px;
-    border-bottom-right-radius: 0px;
+	border: 0px;
 }
 
 #indice .unit-content .header.default {
@@ -204,24 +208,53 @@ fieldset[disabled] .content_type_clase_lnplat .slide_main input {
 }
 
 #indice .units ul li {
-	background: #cbcbcb;
+    border-left: 5px solid #399dbf;
+    background: #fff;
+    border-radius: 0px;
+}
+
+#indice .units ul li a .title {
+    font-weight: 600;
+    color: #399dbf;
+   text-aling:center;
 }
 
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-	background: #9665AB;
+	background: #399dbf;
 }
 
 #indice .units ul li:not(.add) a .title {
 	margin-left: 10px;
 }
 
+#indice .units ul li a:not(.delete) {
+    display: block;
+    padding: 12px 16px;
+}
+
+
 #indice .unit-content .header .number {
 	display: none;
 }
 
-#indice .unit-content .actividades .item:not(.nivel_1) .title{font-size: 1.5rem;}
+#indice .unit-content .actividades .item:not(.nivel_1) .title{
+font-size: 1.5rem;
+}
+
+#indice .unit-content .actividades {
+    border-top: 1px solid #399dbf;
+}
+
+#indice .unit-content .actividades .item {
+    border-bottom: 1px dotted #399dbf;
+}
+
+#indice .unit-content .actividades .item .title {
+    font-weight: 500;
+     font-size: 19px
+}
 
 /**/
 
@@ -1153,7 +1186,12 @@ table td.bck-td {
 }
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-    background-color: #9665AB;
+    background-color: #399dbf;
+}
+
+.btn {
+    border-radius: 0px;
+    font-size: 14px;
 }
 
 /**/
