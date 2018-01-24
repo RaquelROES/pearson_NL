@@ -190,6 +190,7 @@ fieldset[disabled] .content_type_clase_lnplat .slide_main input {
 
 #indice .unit-content {
      background-color: #fff;
+     border-radius: 0px;
 }
 
 #indice .unit-content .header {
