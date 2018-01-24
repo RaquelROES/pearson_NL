@@ -1,7 +1,7 @@
 (function (blink) {
 	'use strict';
 
-	var pearson_NL = function () {
+	var pearson_NL_demo = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
