@@ -661,6 +661,7 @@ body.is_app .pearson_NL-navbar.ocultar {
 }
 
 .bck-title4 {
+    margin-left: -70px;
     color: #FF8400;
     font-size: 2.4rem;
     font-weight: 600;
