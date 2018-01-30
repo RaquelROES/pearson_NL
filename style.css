@@ -579,11 +579,14 @@ body.is_app .pearson_NL-navbar.ocultar {
 /**/
 
 /* CKEDITOR */
+.bck-i-fullscreen-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    }
+
 #actividad .content img {
 	margin-top: 10px;
-	border: 2px solid #9665AB;
-    border-radius: 25px;
-    border-bottom-right-radius: 0;
 }
 
 /*Evitar bordes en las lineas del matching*/
