@@ -666,6 +666,7 @@ body.is_app .pearson_NL-navbar.ocultar {
     color: #a966aa;
     background: none;
     margin-top: 0px;
+    border: 0px;
 }
 
 #actividad .content .texto_curso  ul.bck-ul-2 li,
@@ -1397,5 +1398,3 @@ table td.bck-td {
 		bottom:0 ;
 	}
 }
-
-
