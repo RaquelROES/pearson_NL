@@ -11,10 +11,11 @@
 		ckEditorStyles: {
 			name: 'pearson_NL_demo',
 			styles: [
-				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
-				{ name: 'Título 4', element: 'h3', attributes: { 'class': 'bck-title4'} },
+				{ name: 'Title 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Title 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Title 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Title 4', element: 'h3', attributes: { 'class': 'bck-title4'} },
+				{ name: 'Title 5', element: 'h3', attributes: { 'class': 'bck-title5'} },
 
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
