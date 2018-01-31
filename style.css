@@ -724,11 +724,9 @@ body.is_app .pearson_NL-navbar.ocultar {
 
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before {
-    content: counter(bck-li-counter)'.';
-    position: absolute;
-    font-weight: 500;
-    text-align: right;
-    color: #333;
+	content: "- ";
+	background: none;
+    position: relative;
 }
 
 #actividad .content .texto_curso ul.bck-ul-3 li,
@@ -775,20 +773,17 @@ body.is_app .pearson_NL-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol-2 li,
 #actividad .content .workspace ul li .bck-ol-2 li {
 	counter-increment: bck-li-counter;
-	padding-left: 4px;
 	position: relative;
 	z-index: 0;
 }
 
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter, upper-alpha)'.-';
-	color: #9665AB;
-	font-size: 2.3rem;
-    margin-left: -32px;
-    margin-top: -1px;
-    padding-right: 8px;
-    text-align: left;
+	content: counter(bck-li-counter)'.';
+    position: absolute;
+    font-weight: 500;
+    text-align: right;
+    color: #333;
 }
 /**/
 
