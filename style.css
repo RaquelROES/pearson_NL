@@ -1232,7 +1232,7 @@ table td.bck-td {
     background: white;
 }
 
-.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
+.btn-primary.disabled, .btn-primary.disabled:focus {
     background-color: #399dbf;
 }
 
